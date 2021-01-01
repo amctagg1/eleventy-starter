@@ -29,6 +29,10 @@ CSS and images are configured to auto-copy into the _site folder during eleventy
 
 
 ## Netlify Config
-When you create a pull request, Netlify will auto-generate a deploy preview URL.  
-When you merge to master, a production deployment is kicked off automatically.   
-Netlify.toml configures the Netilfy build process to compile eleventy.
+In Nelitfy, choose New Site From Git and link to the associated github repo.
+Now when you merger to master, a production deployment is kicked off automatically. 
+
+Netlify.toml   
+Configures the Netilfy build process to compile an eleventy site.
+
+When you create a pull request in github, Netlify will auto-generate a deploy preview URL for testing. 
