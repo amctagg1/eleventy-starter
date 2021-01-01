@@ -5,11 +5,11 @@ Starter for a static site using eleventy and sass, and deploying to Netlify via 
 Eleventy is installed to the local directory.   
 https://www.11ty.dev/docs/getting-started/
 
-  // build eleventy  
-  npx @11ty/eleventy
-  
-  // build eleventy and start up a local server  
-  npx @11ty/eleventy --serve
+    // build eleventy  
+    npx @11ty/eleventy
+    
+    // build eleventy and start up a local server  
+    npx @11ty/eleventy --serve
 
 ## Eleventy Config
 Any templates found by eleventy are compiled to static HTML in a _site folder.  
