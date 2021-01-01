@@ -2,18 +2,19 @@
 Starter for a static site using eleventy and sass, and deploying to Netlify via github integration
 
 ## Get Started
-Locally install eleventy and its dependencies (requires Node and npm)
+Requires: Node and npm.
+
+Locally install eleventy and its dependencies to a node_modules folder.
 
     npm install @11ty/eleventy
+    
+Run your first eleventy build.
+
+    npx @11ty/eleventy
 
 ## Eleventy
-Eleventy generates a static site from any templates found in the directory.
-
-Eleventy is installed to the local directory.   
+Eleventy generates a static site from any templates found in the directory.  
 https://www.11ty.dev/docs/getting-started/
-
-    // build eleventy  
-    npx @11ty/eleventy
     
     // build eleventy and start up a local server  
     npx @11ty/eleventy --serve
