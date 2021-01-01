@@ -13,16 +13,16 @@ Run your first eleventy build.
     npx @11ty/eleventy
 
 ## Eleventy
-Eleventy generates a static site from any templates found in the directory.  
+Eleventy builds a static HTML site  
+From: Any templates found in the directory  
+To: A folder called _site  
 https://www.11ty.dev/docs/getting-started/
     
     // build eleventy and start up a local server  
     npx @11ty/eleventy --serve
 
-
-
 ## Eleventy Config
-Eleventy compiles to static HTML in a folder called _site   
+  
 The _site folder and eleventy's npm dependencies are excluded from git tracking using the .gitignore file    
 CSS and images are configured to auto-copy into the _site folder in eleventy.js
 
