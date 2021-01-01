@@ -16,8 +16,8 @@ https://www.11ty.dev/docs/getting-started/
 
 
 ## Eleventy Config
-Eleventy compiles to static HTML in a folder called _site 
-The _site folder and eleventy's npm dependencies are excluded from git tracking using the .gitignore field
+Eleventy compiles to static HTML in a folder called _site   
+The _site folder and eleventy's npm dependencies are excluded from git tracking using the .gitignore file    
 CSS and images are configured to auto-copy into the _site folder in eleventy.js
 
 
