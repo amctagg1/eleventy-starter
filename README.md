@@ -21,10 +21,11 @@ https://www.11ty.dev/docs/getting-started/
     // build eleventy and start up a local server  
     npx @11ty/eleventy --serve
 
-## Eleventy Config
-  
-The _site folder and eleventy's npm dependencies are excluded from git tracking using the .gitignore file    
-CSS and images are configured to auto-copy into the _site folder in eleventy.js
+## Eleventy Config  
+.gitignore  
+The _site folder and eleventy's npm dependencies are excluded from git tracking  
+.eleventy.js
+CSS and images are configured to auto-copy into the _site folder during eleventy builds
 
 
 ## Netlify Config
