@@ -2,6 +2,8 @@
 Starter for a static site using eleventy and sass, and deploying to Netlify via github integration
 
 ## Eleventy
+Eleventy generates a static site from any templates found in the directory.
+
 Eleventy is installed to the local directory.   
 https://www.11ty.dev/docs/getting-started/
 
@@ -11,8 +13,11 @@ https://www.11ty.dev/docs/getting-started/
     // build eleventy and start up a local server  
     npx @11ty/eleventy --serve
 
+
+
 ## Eleventy Config
-Any templates found by eleventy are compiled to static HTML in a _site folder.  
+Eleventy compiles to static HTML in a folder called _site 
+The _site folder and eleventy's npm dependencies are excluded from git tracking using the .gitignore field
 CSS and images are configured to auto-copy into the _site folder in eleventy.js
 
 
