@@ -40,8 +40,10 @@ https://www.11ty.dev/docs/getting-started/
 #### Eleventy Config  
 .gitignore  
 The _site/ folder and eleventy's npm dependencies are excluded from git tracking.  
+
 .eleventy.js  
-css/ and images/ are configured to auto-copy into the _site/ folder during eleventy builds.
+css/ and images/ are configured to auto-copy into the _site/ folder during eleventy builds.  
+https://www.11ty.dev/docs/copy/
 
 
 ## Netlify
