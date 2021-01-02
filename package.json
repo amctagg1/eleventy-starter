@@ -4,7 +4,11 @@
   "description": "Starter for a static site using eleventy and sass, and deploying to Netlify via github integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/sass/sass.js scss/style.scss css/style.css --watch & eleventy --serve",
+    "clean": "rm -rf _site/*",
+    "scss": "node_modules/sass/sass.js scss/style.scss css/style.css",
+    "build": "npm run clean && eleventy"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,7 @@
   },
   "homepage": "https://github.com/amctagg1/eleventy-starter#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.11.1",
+    "sass": "^1.32.0"
   }
 }
