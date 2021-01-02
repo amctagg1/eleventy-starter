@@ -3,15 +3,18 @@ Starter for a static site using eleventy and sass, and deploying to Netlify via 
 
 ## Get Started
 Prerequisites: Node and npm.  
-Dev Dependencies: Eleventy and Sass.
+Dev dependencies to be installed: Eleventy, Sass, npm-run-all.
 
-Locally install eleventy and its dependencies to a node_modules folder.
+1. Clone the repository  
+2. cd into the project directory  
+3. Install the dev dependencies listed in the package.json file into a node_modules folder
+        
+        npm install
 
-    npm install @11ty/eleventy
+4. Run the start script from package.json, which both compiles and watches sass and builds/serves eleventy
+
+        npm start
     
-Run your first eleventy build to make sure it's working.
-
-    npx @11ty/eleventy
 
 ## Eleventy
 Eleventy builds a static HTML site  
