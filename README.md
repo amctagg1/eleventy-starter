@@ -42,9 +42,9 @@ CSS and images are configured to auto-copy into the _site folder during eleventy
 
 
 ## Netlify
-In Nelitfy, choose New Site From Git and link to the associated github repo.
-When you create a pull request in github, Netlify will auto-generate a deploy preview URL for testing. 
-Now when you merger to master, a production deployment is kicked off automatically. 
+In Nelitfy, choose New Site From Git and link to the associated github repo.  
+When you create a pull request in github, Netlify will auto-generate a deploy preview URL for testing.   
+When you merger to master, a production deployment is kicked off automatically. 
 
 #### Netlify Config
 Netlify.toml   
