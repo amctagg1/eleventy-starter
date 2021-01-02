@@ -2,7 +2,8 @@
 Starter for a static site using eleventy and sass, and deploying to Netlify via github integration
 
 ## Get Started
-Requires: Node and npm.
+Prerequisites: Node and npm.
+Dev Dependencies: Eleventy and Sass.
 
 Locally install eleventy and its dependencies to a node_modules folder.
 
