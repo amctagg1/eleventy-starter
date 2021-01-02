@@ -52,3 +52,4 @@ When you merger to master, a production deployment is kicked off automatically.
 #### Netlify Config
 Netlify.toml   
 Configures the Netilfy build process to compile scss/ to css/ and compile eleventy to _site/ using the npm run build command.
+https://docs.netlify.com/configure-builds/file-based-configuration/
