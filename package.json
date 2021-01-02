@@ -8,7 +8,7 @@
     "start": "node_modules/sass/sass.js scss/style.scss css/style.css --watch & eleventy --serve",
     "clean": "rm -rf _site/*",
     "scss": "node_modules/sass/sass.js scss/style.scss css/style.css",
-    "build": "npm run clean && eleventy"
+    "build": "npm run scss && eleventy"
   },
   "repository": {
     "type": "git",

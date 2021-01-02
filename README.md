@@ -19,11 +19,14 @@ Dev dependencies to be installed: Eleventy, Sass.
     
 5. Other scripts can be found in package.json, should you need them.  
 
+        npm run clean
+        // cleans out the _site/ folder on demand
+        
         npm run scss 
         // compiles scss/ to css/ on demand
         
-        npm build
-        // cleans out the _site/ folder and re-builds eleventy to _site/ on demand
+        npm run build
+        // compiles scss/ to css/ and re-builds eleventy to _site/ on demand
         
 
 ## Eleventy
@@ -48,5 +51,4 @@ When you merger to master, a production deployment is kicked off automatically.
 
 #### Netlify Config
 Netlify.toml   
-Configures the Netilfy build process to compile eleventy to _site/ using the eleventy build command.
-(Note: This means css/ will auto-copy into _site/, but scss/ will not be compiled to css/ at this time.)
+Configures the Netilfy build process to compile scss/ to css/ and compile eleventy to _site/ using the npm run build command.
