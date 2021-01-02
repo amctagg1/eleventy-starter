@@ -11,10 +11,19 @@ Dev dependencies to be installed: Eleventy, Sass.
         
         npm install
 
-4. Run the start script from package.json, which both compiles and watches sass and builds/serves eleventy
+4. Run the start script from package.json, which both compiles and watches sass and builds ands serves eleventy.  
+This is the scrip to run while doing dev, as it watches and re-builds any changes.
 
-        npm start
+        npm run start
     
+5. Other scripts can be found in package.json, should you need them.  
+
+        npm run scss 
+        // compiles scss to css on-demand
+        
+        npm build
+        // cleans out the _site folder and re-builds eleventy on-demand
+        
 
 ## Eleventy
 Eleventy builds a static HTML site  
@@ -22,21 +31,20 @@ From: Any templates found in the directory
 To: A folder called _site  
 https://www.11ty.dev/docs/getting-started/
     
-    // build eleventy and start up a local server  
-    npx @11ty/eleventy --serve
+    
 
-## Eleventy Config  
+#### Eleventy Config  
 .gitignore  
 The _site folder and eleventy's npm dependencies are excluded from git tracking  
 .eleventy.js
 CSS and images are configured to auto-copy into the _site folder during eleventy builds
 
 
-## Netlify Config
+## Netlify
 In Nelitfy, choose New Site From Git and link to the associated github repo.
+When you create a pull request in github, Netlify will auto-generate a deploy preview URL for testing. 
 Now when you merger to master, a production deployment is kicked off automatically. 
 
+#### Netlify Config
 Netlify.toml   
-Configures the Netilfy build process to compile an eleventy site.
-
-When you create a pull request in github, Netlify will auto-generate a deploy preview URL for testing. 
+Configures the Netilfy build process to compile an eleventy site using the eleventy build command.
