@@ -11,18 +11,19 @@ Dev dependencies to be installed: Eleventy, Sass.
         
         npm install
 
-4. Run the start script from package.json, which both compiles and watches sass and builds ands serves eleventy.  
-This is the scrip to run while doing dev, as it watches and re-builds any changes.
+4. Run the start script from package.json, which does two things in parallel:  
+- Watches for scss changes and compiles to css
+- Watches for project changes, builds eleventy and auto-refreshes a local server  
 
         npm run start
     
 5. Other scripts can be found in package.json, should you need them.  
 
         npm run scss 
-        // compiles scss to css on-demand
+        // compiles scss to css on demand
         
         npm build
-        // cleans out the _site folder and re-builds eleventy on-demand
+        // cleans out the _site folder and re-builds eleventy on demand
         
 
 ## Eleventy
