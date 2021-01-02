@@ -9,7 +9,7 @@ Locally install eleventy and its dependencies to a node_modules folder.
 
     npm install @11ty/eleventy
     
-Run your first eleventy build.
+Run your first eleventy build to make sure it's working.
 
     npx @11ty/eleventy
 
