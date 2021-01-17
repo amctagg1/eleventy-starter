@@ -30,8 +30,8 @@ Dev dependencies to be installed: Eleventy, Sass.
         
 
 ## Eleventy
-Eleventy builds a static HTML site  
-From: Any templates found in the root directory  
+Eleventy will build a static HTML site  
+From: Any templates found in views/  
 To: A folder called _site/  
 https://www.11ty.dev/docs/getting-started/  
 
@@ -47,7 +47,7 @@ The _site/ folder and eleventy's npm dependencies are excluded from git tracking
 
 .eleventy.js  
 css/ and images/ are configured to auto-copy into the _site/ folder during eleventy builds.  
-https://www.11ty.dev/docs/copy/
+https://www.11ty.dev/docs/copy/  
 
 
 ## Netlify

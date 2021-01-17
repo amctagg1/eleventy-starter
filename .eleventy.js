@@ -7,4 +7,16 @@ module.exports = function (eleventyConfig) {
   
     // Pass through copy `images/` to `_site/images`
     eleventyConfig.addPassthroughCopy("images");
+
+    return {
+        dir: {
+          // Look for views in this directory (rather than the default of root)
+          input: "views"
+
+          
+          // data is views/_data
+          // includes and layouts is views/_includes
+          //output default is _site
+        }
+      };
 };
