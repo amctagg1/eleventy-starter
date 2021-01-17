@@ -43,7 +43,7 @@ Debug eleventy configuration and builds:
 
 #### Eleventy Config  
 .gitignore  
-The _site/ folder and eleventy's npm dependencies are excluded from git tracking.  
+_site/ and node_modules are excluded from git tracking.  
 
 .eleventy.js  
 css/ and images/ are configured to auto-copy into the _site/ folder during eleventy builds.  
