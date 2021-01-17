@@ -33,7 +33,11 @@ Dev dependencies to be installed: Eleventy, Sass.
 Eleventy builds a static HTML site  
 From: Any templates found in the root directory  
 To: A folder called _site/  
-https://www.11ty.dev/docs/getting-started/
+https://www.11ty.dev/docs/getting-started/  
+
+Debug eleventy configuration and builds:
+
+        DEBUG=Eleventy* npx @11ty/eleventy
     
     
 
